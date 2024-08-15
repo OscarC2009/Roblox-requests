@@ -61,3 +61,6 @@ local function sendGetRequest(url)
 end
 
 sendGetRequest(url)
+```
+
+Tested on: [Celery](https://celery.zip/)
