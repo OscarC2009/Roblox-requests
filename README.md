@@ -11,7 +11,6 @@ local url = "https://www.example.com/"
 
 local function sendGetRequest(url)
     local success, response = pcall(function()
-        -- Make the GET request
         return http_request({
             Url = url,
             Method = 'POST',
@@ -42,7 +41,6 @@ local url = "https://www.example.com/"
 
 local function sendGetRequest(url)
     local success, response = pcall(function()
-        -- Make the GET request
         return http_request({
             Url = url,
             Method = 'GET',
